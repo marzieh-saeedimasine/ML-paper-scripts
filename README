@@ -1,0 +1,33 @@
+Archive of Jupyter Notebook scripts and adsorption free energy data used in
+the paper
+"Biomolecular Adsorption on Nanomaterials: Combining Molecular Simulations
+with Machine Learning"
+by Marzieh Saeedimasine, Roja Rahmani and Alexander Lyubartsev
+Stockholm University, 2023.
+
+Data file:
+top_Gads_updated.dat : a full set of numerical data on adsorption free energies of small biomolecules to various nanomaterials.
+top_Gads_updated.xlsx : the same data in the excel format
+
+
+Scripts:
+
+Workflow of computations and results, to be accessed or run in Jupyter Notebook
+
+PCA.ipynb: Principal Component Analysis for Linear Dimensionality
+Reduction and Eigenvectors analysis along the original features.
+
+Clustering.ipynb: Biomolecules Agglomerative Clustering and K-meansClustering;
+Nanomaterials AgglomerativeClustering using both full data set and predicted
+data set
+
+LR-ML.ipynb: LinearRegression modelling of Nanomaterial-Biomolecule
+adsorption free energy
+
+AdaBoostRegressor-ML.ipynb: AdaBoostRegressor modelling using
+DecisionTreeRegressor as week learner for Nanomaterial-Biomolecule
+adsorption free energy
+
+ANN-ML.ipynb: Neural network modelling of Nanomaterial-Biomolecule
+adsorption free energy
+
